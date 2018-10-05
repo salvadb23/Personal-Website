@@ -1,0 +1,26 @@
+.d {
+}
+
+.techTools {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: minmax(100px, auto);
+}
+
+.techTools h4 {
+  margin-top: 0.5em;
+}
+
+.techTools h4,
+ul {
+  font-size: 1.4em;
+  color: black;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.techTools li {
+  font-size: 1.2em;
+  margin: 0.5em;
+  margin: -7px 0 18px 0px;
+}
