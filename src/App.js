@@ -6,8 +6,7 @@ import Portfolio from "./Components/PortfolioComp";
 import TechTools from "./Components/TechToolsComp";
 import About from "./Components/AboutComp";
 import Contact from "./Components/ContactComp";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faAd } from "@fortawesome/free-solid-svg-icons";
+
 import "./CSS/Global.css";
 
 // TODO: Pick a color scheme and a font
@@ -29,7 +28,5 @@ class App extends Component {
     );
   }
 }
-
-library.add(faAd);
 
 export default App;

@@ -1,0 +1,11 @@
+#About {
+  text-align: center;
+}
+
+#About img {
+  border-radius: 50%;
+  width: 50%;
+  height: 70%;
+  display: inline-block;
+  border: 0.2em solid black;
+}

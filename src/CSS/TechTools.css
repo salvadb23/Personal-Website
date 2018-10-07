@@ -1,6 +1,3 @@
-.d {
-}
-
 .techTools {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -23,4 +20,35 @@ ul {
   font-size: 1.2em;
   margin: 0.5em;
   margin: -7px 0 18px 0px;
+  margin-top: 0.2em;
+}
+
+.fab {
+  font-size: 1.5em;
+  margin-left: 2px;
+}
+
+.fa-js-square {
+  color: #f6e400;
+}
+
+.fa-python {
+  color: #276da3;
+}
+
+.fa-github-square {
+  color: black;
+}
+.fa-react {
+  color: #22dcff;
+  animation: rotate linear 4s infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
