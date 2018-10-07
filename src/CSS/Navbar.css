@@ -7,14 +7,14 @@
   position: fixed;
   width: 22.7%;
 }
-.navBar ul {
-  margin-top: 8em;
+.navBar .side-links {
+  margin-top: 5em;
   padding: 0.7em;
 }
 
 .navBar ul li {
   padding: 1em;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .navBar ul li a {

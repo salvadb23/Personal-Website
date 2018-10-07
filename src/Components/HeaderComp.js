@@ -4,7 +4,7 @@ import "../CSS/Header.css";
 export default class Header extends Component {
   render() {
     return (
-      <div className="b header">
+      <div className="b header" id="Header">
         <div className="container">
           <img src="" alt="Me" />
           <p>Full Stack Engineer</p>

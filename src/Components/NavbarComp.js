@@ -6,8 +6,10 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="a navBar">
-        <SocialLinks />
-        <ul>
+        <ul className="side-links">
+          <li>
+            <a href="#Header">Main</a>
+          </li>
           <li>
             <a href="#Portfolio">Portfolio</a>
           </li>
@@ -20,7 +22,11 @@ export default class Navbar extends Component {
           <li>
             <a href="#Contact">Contact</a>
           </li>
+          {/* <li>
+            <a href="">Blog</a>
+          </li> */}
         </ul>
+        <SocialLinks />
       </div>
     );
   }

@@ -1,2 +1,10 @@
 .social-links {
+  display: flex;
+  overflow: none;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1em;
+}
+
+.fa-linkedin {
 }
