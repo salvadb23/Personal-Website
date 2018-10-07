@@ -28,6 +28,7 @@ export default class Contact extends Component {
             <br />
             <textarea name="message" id="" cols="30" rows="10" />
             <br />
+            {/* TODO: I need to figure out how I want this button styled */}
             <button>Send Message</button>
           </form>
         </div>

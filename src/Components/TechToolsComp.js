@@ -5,39 +5,40 @@ export default class TechTools extends Component {
   render() {
     return (
       <div className="d" id="TechTools">
-        {/* TODO:Put logos's of associated to the names */}
+        {/* TODO:Finish putting in all the logos and colors, but besides that I'm pretty much done with this section */}
         <h3>Tech Tools</h3>
         <div className="techTools">
           <ul>
             <h4>Languages</h4>
             <li>
-              Javascript <i class="fab fa-js-square " />
+              Javascript <i className="fab fa-js-square " />
             </li>
             <li>
-              Python <i class="fab fa-python " />
+              Python <i className="fab fa-python " />
             </li>
           </ul>
           <ul>
             <h4>Frameworks</h4>
             <li>
-              React <i class="fab fa-react" />
+              React <i className="fab fa-react" />
             </li>
-            <li>
-              Django <i class="fab fa-react" />
-            </li>
+            {/* <li>Django</li> */}
           </ul>
           <ul>
             <h4>Tools</h4>
             <li>
               Git/Github
               <i
-                class="fab fa-git-square
+                className="fab fa-git-square
                "
               />{" "}
               <i
-                class="fab fa-github-square
+                className="fab fa-github-square
                "
               />
+            </li>
+            <li>
+              Slack <i className="fab fa-slack-hash" />
             </li>
           </ul>
         </div>
