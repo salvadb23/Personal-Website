@@ -1,7 +1,5 @@
 @import "reset.css";
 .App {
-  width: 100vw;
-  height: 100vh;
   margin: 0;
   font-family: "Merriweather", sans-serif;
 }
@@ -10,7 +8,7 @@
   width: 100%;
   height: 100%;
   grid-template-columns: 1fr 3.43fr;
-  grid-template-rows: auto;
+  grid-template-rows: 800px auto auto repeat(2, 800px) 560px 13em;
   grid-template-areas:
     "a b"
     "a b"
@@ -23,28 +21,27 @@
 
 .a {
   grid-area: a;
-  background: green;
+  background-color: cyan;
 }
 .b {
   grid-area: b;
-  background-color: red;
-  padding-left: 2em;
+  background-color: rebeccapurple;
 }
 .c {
   grid-area: c;
-  background-color: purple;
+  background-color: lightcoral;
 }
 .d {
   grid-area: d;
-  background-color: green;
+  background-color: lawngreen;
 }
 .e {
   grid-area: e;
-  background: blueviolet;
+  background-color: red;
 }
 .f {
   grid-area: f;
-  background: green;
+  background-color: khaki;
 }
 
 div h3 {
@@ -55,4 +52,45 @@ div h3 {
 }
 div h4 {
   text-decoration: underline;
+}
+
+/* Responsive tablet style  */
+@media screen and (max-width: 870px) {
+  .navBar {
+    background-color: red;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 12%;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Responsive for Mobile phones */
+@media screen and (max-width: 540px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+  }
+
+  /* Aligning everything that was not in a column, in a column */
+  .techTools,
+  #About .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Navbar style below */
+  .navBar {
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 15%;
+    z-index: 1;
+  }
 }

@@ -22,7 +22,7 @@ export default class TechTools extends Component {
             <li>
               React <i className="fab fa-react" />
             </li>
-            {/* <li>Django</li> */}
+            <li>Django</li>
           </ul>
           <ul>
             <h4>Tools</h4>
@@ -39,6 +39,9 @@ export default class TechTools extends Component {
             </li>
             <li>
               Slack <i className="fab fa-slack-hash" />
+            </li>
+            <li>
+              Sketch <i className="fas fa-gem" />
             </li>
           </ul>
         </div>

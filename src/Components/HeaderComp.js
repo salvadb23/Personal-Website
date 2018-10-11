@@ -5,12 +5,19 @@ export default class Header extends Component {
   render() {
     return (
       <div className="b header" id="Header">
-        <div className="container">
-          <img src="" alt="Me" />
-          <p>Full Stack Engineer</p>
+        <div className="header-content">
           <p>
-            Student at
-            <a href="https://www.makeschool.com/"> Make School</a>
+            <span className="my-name">William Bogans</span> <br />
+            Currently studying at{" "}
+            <a
+              href="https://www.makeschool.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Make School
+            </a>
+            <br />
+            Budding Full-Stack Developer
           </p>
         </div>
       </div>

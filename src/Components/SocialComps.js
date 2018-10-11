@@ -16,6 +16,11 @@ export default class SocialComps extends Component {
               <i className="fab fa-linkedin" />
             </a>
           </li>
+          <li>
+            <a href="mailto:#">
+              <i className="fas fa-envelope" />
+            </a>
+          </li>
         </ul>
       </div>
     );

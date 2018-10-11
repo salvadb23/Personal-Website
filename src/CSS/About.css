@@ -1,11 +1,17 @@
-#About {
-  text-align: center;
+#About .about-section {
+  display: flex;
+  align-items: center;
 }
 
 #About img {
-  border-radius: 50%;
+  width: 290px;
+  height: 230px;
+  padding: 5px;
+  border-radius: 10%;
+  margin: 2em;
+}
+
+#About .about-section p {
   width: 50%;
-  height: 70%;
-  display: inline-block;
-  border: 0.2em solid black;
+  line-height: 1.5;
 }
