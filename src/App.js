@@ -8,6 +8,7 @@ import About from "./Components/AboutComp";
 import Contact from "./Components/ContactComp";
 
 // TODO: Pick a color scheme and a font, when a user clicks on one of the links in the sidenav, instead jumping to it, how about we just swap out the header with the content of the section
+import "./CSS/Global.css";
 
 class App extends Component {
   render() {
