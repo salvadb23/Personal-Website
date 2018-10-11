@@ -6,7 +6,7 @@
 //       <div className="socialLinks">
 //         <ul>
 //           <li>
-//             <a href="https://www.linkedin.com/in/william-bogans-b5758a16b/">
+//             {/* <a href="https://www.linkedin.com/in/william-bogans-b5758a16b/" */}
 //               <i className="fab fa-linkedin" />
 //             </a>
 //           </li>

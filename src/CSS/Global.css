@@ -74,8 +74,6 @@ div h4 {
   body {
     overflow-x: hidden;
   }
-  .container {
-  }
 
   /* Aligning everything that was not in a column, in a column */
   .techTools,
