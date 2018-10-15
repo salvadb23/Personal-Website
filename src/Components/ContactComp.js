@@ -12,7 +12,9 @@ export default class Contact extends Component {
         </h3>
         <div className="contact-form">
           <form action="">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name" className="contactLabel">
+              Name
+            </label>
             <br />
             <input type="text" placeholder="Jane Doe..." name="name" />
             <br />
@@ -29,7 +31,7 @@ export default class Contact extends Component {
             <textarea name="message" id="" cols="30" rows="10" />
             <br />
             {/* TODO: I need to figure out how I want this button styled */}
-            <button>Send Message</button>
+            <button>Send</button>
           </form>
         </div>
       </div>

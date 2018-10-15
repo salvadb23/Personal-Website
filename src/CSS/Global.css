@@ -53,6 +53,12 @@ div h4 {
   text-decoration: underline;
 }
 
+textarea {
+  resize: none;
+  border: none;
+  font-size: 20px;
+}
+
 /* Responsive tablet style  */
 @media screen and (max-width: 870px) {
   .container {

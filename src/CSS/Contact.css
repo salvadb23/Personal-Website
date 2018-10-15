@@ -1,21 +1,30 @@
 #Contact .contact-form {
   display: flex;
   justify-content: center;
-  margin-left: -10em;
-  margin-top: 3em;
-}
-#Contact .contact-form label {
-  color: red;
-  font-size: 2em;
-  margin-bottom: 9em;
 }
 
-#Contact .contact-form input {
+#Contact .contact-form label {
+  display: flex;
+  flex-direction: row;
+  font-size: 2em;
+  margin-top: 0.5em;
 }
 
 #Contact .contact-form input[type="text"] {
-  width: 130%;
-  padding: 1em;
+  width: 30em;
+  padding: 1.5em;
   border: none;
   border-radius: 2%;
+  font-size: 0.9em;
+}
+
+#Contact .contact-form textarea {
+  width: 32em;
+  height: 15em;
+}
+
+#Contact .contact-form button {
+  font-size: 1.2em;
+  border: none;
+  margin-top: 0.4em;
 }
