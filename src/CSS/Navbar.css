@@ -4,12 +4,13 @@
   left: 0;
   overflow-x: hidden;
   position: fixed;
-  width: 22.7%;
-  z-index: 1001;
+  width: 22.5%;
+  z-index: 200;
 }
 .navBar .side-links {
   margin-top: 3em;
   padding: 0.7em;
+  z-index: 200;
 }
 
 .navBar ul li {
@@ -19,8 +20,7 @@
 
 .navBar ul li a {
   text-decoration: none;
-  color: black;
-  display: inline-block;
+  color: white;
 }
 
 .navBar ul li a:hover {

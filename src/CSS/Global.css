@@ -20,27 +20,26 @@
 
 .a {
   grid-area: a;
-  background-color: #6aa4bb;
+  background-color: rgba(0, 78, 146, 0.9);
+  color: white;
+  z-index: 3;
 }
+
 .b {
   grid-area: b;
-  background-color: rebeccapurple;
 }
 .c {
   grid-area: c;
-  background-color: lightcoral;
+  background-color: #f5e9e2;
 }
 .d {
   grid-area: d;
-  background-color: lawngreen;
 }
 .e {
   grid-area: e;
-  background-color: red;
 }
 .f {
   grid-area: f;
-  background-color: lawngreen;
 }
 
 div h3 {

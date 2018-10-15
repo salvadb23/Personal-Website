@@ -10,9 +10,24 @@
 }
 #Header p {
   padding: 2em;
-  border: 5px solid black;
   color: black;
-  background-color: #36271d;
+  border: 2px solid black;
+  background: rgba(89, 143, 239, 0.2);
+}
+
+#Header #overlay {
+  position: absolute;
+  display: block;
+  width: 77.5%;
+  height: 50em;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#Header .header-content {
+  z-index: 2;
 }
 
 #Header .header-content img {
@@ -24,10 +39,9 @@
 
 #Header .header-content a {
   text-decoration: none;
-  color: lightyellow;
+  color: black;
 }
 
 .my-name {
   font-size: 3em;
-  text-decoration: underline;
 }
