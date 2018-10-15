@@ -1,0 +1,21 @@
+#Contact .contact-form {
+  display: flex;
+  justify-content: center;
+  margin-left: -10em;
+  margin-top: 3em;
+}
+#Contact .contact-form label {
+  color: red;
+  font-size: 2em;
+  margin-bottom: 9em;
+}
+
+#Contact .contact-form input {
+}
+
+#Contact .contact-form input[type="text"] {
+  width: 130%;
+  padding: 1em;
+  border: none;
+  border-radius: 2%;
+}

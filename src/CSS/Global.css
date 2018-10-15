@@ -8,13 +8,14 @@
   width: 100%;
   height: 100%;
   grid-template-columns: 1fr 3.43fr;
-  grid-template-rows: 800px auto auto repeat(2, 800px);
+  grid-template-rows: 800px auto auto repeat(2, 800px) 800px;
   grid-template-areas:
     "a b"
     "a b"
     "a c"
     "a d"
-    "a e";
+    "a e"
+    "a f";
 }
 
 .a {
@@ -36,6 +37,10 @@
 .e {
   grid-area: e;
   background-color: red;
+}
+.f {
+  grid-area: f;
+  background-color: lawngreen;
 }
 
 div h3 {
