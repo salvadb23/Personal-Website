@@ -38,11 +38,10 @@
   display: none;
 }
 
-.navBar .fa-bars {
-  font-size: 2em;
-  float: left;
-  margin-left: 0.4em;
-  margin-top: 0.5em;
+@media screen and (max-width: 1380px) {
+  .navBar .side-links li {
+    padding-top: 0.5em;
+  }
 }
 
 /* Responsive Tablet Sizing */
