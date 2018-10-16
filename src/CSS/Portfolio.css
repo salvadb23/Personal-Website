@@ -25,19 +25,9 @@
   padding: 1px 0 2em 0;
 }
 
-/* Tablet style */
-@media screen and (max-width: 500px) {
-  .port-section {
-    width: 64%;
-  }
-}
-
 /* Responsive for Mobile phones */
 @media screen and (max-width: 481px) {
-  #Portfolio h3 {
-    width: 64%;
-  }
   #Portfolio .port-section {
-    width: 64%;
+    width: 95%;
   }
 }

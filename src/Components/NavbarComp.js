@@ -6,10 +6,6 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="a navBar">
-        {/* <input type="checkbox" id="toggle-menu" />
-        <label htmlFor="toggle-menu" className="menu-on">
-          &#9776;
-        </label> */}
         <ul className="side-links">
           <li>
             <a href="#Header">Main</a>
@@ -26,9 +22,9 @@ export default class Navbar extends Component {
           <li>
             <a href="#Contact">Contact</a>
           </li>
-          {/* <li>
-            <a href="">Blog</a>
-          </li> */}
+          <li>
+            <a href="#TODO:send this to the blog sub domain">Blog</a>
+          </li>
         </ul>
         <SocialLinks />
       </div>

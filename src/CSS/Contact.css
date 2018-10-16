@@ -1,7 +1,6 @@
 #Contact .contact-form {
   display: flex;
   justify-content: center;
-  border: 1px solid red;
 }
 
 #Contact .contact-form label {
@@ -22,21 +21,53 @@
 #Contact .contact-form textarea {
   width: 32em;
   height: 15em;
+  border-radius: 1.2%;
 }
 
 #Contact .contact-form button {
-  font-size: 1.2em;
+  margin-top: 5%;
+  font-size: 1.4em;
   border: none;
-  margin-top: 0.4em;
+  border-radius: 2spx;
+  width: 10em;
+  height: 2em;
+}
+
+#Contact .contact-form button:hover {
+  cursor: pointer;
+  background-color: #21fa90;
+  transform: scale(1.1);
+}
+
+#Contact .contact-form button:active {
+  border: none;
 }
 
 /* Tablet style */
 @media screen and (max-width: 690px) {
-  #Contact .contact-form {
-    border: 1px solid cyan;
+  #Contact .contact-form textarea {
+    width: 24em;
   }
 }
 
 /* Responsive for Mobile phones */
 @media screen and (max-width: 481px) {
+  #Contact .contact-form {
+    margin-right: -2em;
+  }
+  #Contact .contact-form input[type="text"] {
+    width: 20em;
+  }
+  #Contact .contact-form {
+    margin-left: -4.5em;
+  }
+  #Contact .contact-form textarea {
+    width: 16.3em;
+  }
+  #Contact span {
+    display: none;
+  }
+  #Contact .contact-form button {
+    margin-left: 2.3em;
+  }
 }

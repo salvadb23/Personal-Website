@@ -26,6 +26,6 @@
 /* Mobile Styles */
 @media screen and (max-width: 540px) {
   .about-section {
-    width: 64%;
+    width: 95%;
   }
 }

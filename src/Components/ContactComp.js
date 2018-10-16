@@ -5,7 +5,7 @@ export default class Contact extends Component {
     return (
       <div className="f" id="Contact">
         <h3>
-          Contact Me{" "}
+          Let's talk{" "}
           <span role="img" aria-label="Smiling emoji">
             😁
           </span>{" "}
@@ -18,6 +18,11 @@ export default class Contact extends Component {
             <br />
             <input type="text" placeholder="Jane Doe..." name="name" />
             <br />
+            <label htmlFor="name" className="contactLabel">
+              Email
+            </label>
+            <br />
+            <input type="text" placeholder="janedoe@gmail.com" name="name" />
             <label htmlFor="subject">Subject</label>
             <br />
             <input
@@ -26,11 +31,11 @@ export default class Contact extends Component {
               name="subject"
             />
             <br />
+
             <label htmlFor="message">Message</label>
             <br />
             <textarea name="message" id="" cols="30" rows="10" />
             <br />
-            {/* TODO: I need to figure out how I want this button styled */}
             <button>Send</button>
           </form>
         </div>
