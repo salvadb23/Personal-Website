@@ -8,6 +8,7 @@
   background: url(../media/sanfran.jpeg) no-repeat center;
   background-size: cover;
 }
+
 #Header p {
   padding: 2em;
   color: black;
@@ -18,7 +19,7 @@
 #Header #overlay {
   position: absolute;
   display: block;
-  width: 77.5%;
+  width: 77.28%;
   height: 50em;
   top: 0;
   right: 0;
@@ -44,4 +45,31 @@
 
 .my-name {
   font-size: 3em;
+}
+
+/* Responsive Tablet Sizing */
+@media screen and (max-width: 870px) {
+  #Header #overlay {
+    width: 100%;
+  }
+
+  #Header p {
+    padding: 1.4em;
+  }
+  #Header .header-content {
+    background: rgba(89, 143, 239, 0.2);
+  }
+}
+
+/* Responsive for Mobile phones */
+@media screen and (max-width: 540px) {
+  #Header .header-content {
+    margin-left: -6em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #Header .header-content {
+    margin-left: -15.2em;
+  }
 }

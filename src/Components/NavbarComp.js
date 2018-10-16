@@ -23,6 +23,9 @@ export default class Navbar extends Component {
           <li>
             <a href="#About">About</a>
           </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
           {/* <li>
             <a href="">Blog</a>
           </li> */}

@@ -52,3 +52,17 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+/* Tablet style */
+@media screen and (max-width: 625px) {
+  .techTools {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 540px) {
+  .techTools {
+    width: 64%;
+  }
+}

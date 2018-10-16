@@ -1,6 +1,7 @@
 #Contact .contact-form {
   display: flex;
   justify-content: center;
+  border: 1px solid red;
 }
 
 #Contact .contact-form label {
@@ -27,4 +28,15 @@
   font-size: 1.2em;
   border: none;
   margin-top: 0.4em;
+}
+
+/* Tablet style */
+@media screen and (max-width: 690px) {
+  #Contact .contact-form {
+    border: 1px solid cyan;
+  }
+}
+
+/* Responsive for Mobile phones */
+@media screen and (max-width: 481px) {
 }

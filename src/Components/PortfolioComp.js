@@ -56,10 +56,6 @@ export default class PortfolioSect extends Component {
             </p>
           </div>
         </div>
-        {/* TODO: Uncomment this when I have more projects
-        <p className="show-more">
-          <a href="#">Show More</a>
-        </p> */}
       </div>
     );
   }

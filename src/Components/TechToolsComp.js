@@ -5,7 +5,6 @@ export default class TechTools extends Component {
   render() {
     return (
       <div className="d" id="TechTools">
-        {/* TODO:Finish putting in all the logos and colors, but besides that I'm pretty much done with this section */}
         <h3>Tech Tools</h3>
         <div className="techTools">
           <ul>
