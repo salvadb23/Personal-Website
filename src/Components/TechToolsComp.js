@@ -16,6 +16,9 @@ export default class TechTools extends Component {
             <li>
               Python <i className="fab fa-python " />
             </li>
+            <li>
+              Ruby <i className="fab fa-python " />
+            </li>
           </ul>
           <ul>
             <h4>Frameworks</h4>
@@ -32,7 +35,7 @@ export default class TechTools extends Component {
                 className="fab fa-git-square
                "
               />{" "} */}
-              <img src={git} alt="git logo" srcset="" />
+              <img src={git} alt="git logo" srcSet="" />
               <i
                 className="fab fa-github-square
                "

@@ -46,7 +46,9 @@
   display: none;
 }
 
-/* Responsive styles below */
+/*********************
+Responsive styles below 
+**********************/
 @media screen and (max-width: 1380px) {
   .navBar .side-links li {
     padding-top: 0.5em;
@@ -77,7 +79,6 @@
     font-size: 2em;
   }
 }
-
 /* Responsive for Mobile phones */
 @media screen and (max-width: 540px) {
   /* Navbar style below */
