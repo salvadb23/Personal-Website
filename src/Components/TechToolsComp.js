@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import git from "../media/git.png";
 import "../CSS/TechTools.css";
 
 export default class TechTools extends Component {
@@ -27,10 +28,11 @@ export default class TechTools extends Component {
             <h4>Tools</h4>
             <li>
               Git/Github
-              <i
+              {/* <i
                 className="fab fa-git-square
                "
-              />{" "}
+              />{" "} */}
+              <img src={git} alt="git logo" srcset="" />
               <i
                 className="fab fa-github-square
                "

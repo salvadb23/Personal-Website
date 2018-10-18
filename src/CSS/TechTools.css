@@ -23,6 +23,11 @@ ul {
   margin-top: 0.2em;
 }
 
+.techTools img {
+  width: 1.3em;
+  height: 1.3em;
+}
+
 .fab {
   font-size: 1.5em;
   margin-left: 2px;
