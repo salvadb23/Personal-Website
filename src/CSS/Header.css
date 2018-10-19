@@ -68,7 +68,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   #Header .header-content {
     margin-right: -5.9em;
   }
