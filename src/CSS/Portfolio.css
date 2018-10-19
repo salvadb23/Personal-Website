@@ -41,7 +41,8 @@
     margin-bottom: 2em;
   }
   .card img {
-    width: 25em;
+    width: 22.9em;
+    margin-left: 1em;
   }
   .card > img + p {
     width: auto;
