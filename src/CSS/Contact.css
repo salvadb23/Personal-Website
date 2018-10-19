@@ -16,12 +16,14 @@
   border: none;
   border-radius: 2%;
   font-size: 0.9em;
+  border: 1px solid black;
 }
 
 #Contact .contact-form textarea {
   width: 32em;
   height: 15em;
   border-radius: 1.2%;
+  border: 1px solid black;
 }
 
 #Contact .contact-form button {
@@ -35,7 +37,6 @@
 
 #Contact .contact-form button:hover {
   cursor: pointer;
-  background-color: #21fa90;
   transform: scale(1.1);
 }
 

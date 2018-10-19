@@ -43,8 +43,7 @@
 }
 .f {
   grid-area: f;
-  /* background-color: rgba(185, 232, 238, 0.3); */
-  background-color: green;
+  background-color: rgba(185, 232, 238, 0.3);
 }
 
 div h3 {

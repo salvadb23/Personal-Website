@@ -32,7 +32,7 @@ export default class Contact extends Component {
             />
             <br />
 
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Message*</label>
             <br />
             <textarea name="message" id="" cols="30" rows="10" />
             <br />
