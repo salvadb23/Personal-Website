@@ -17,7 +17,7 @@ ul {
 }
 
 .techTools li {
-  font-size: 1.2em;
+  font-size: 1.6em;
   margin: 0.5em;
   margin: -7px 0 18px 0px;
   margin-top: 0.2em;
@@ -56,11 +56,21 @@ ul {
   animation: reactSpin linear 4s infinite;
 }
 
-/* Tablet style */
-@media screen and (max-width: 625px) {
+/* Tablet styles*/
+
+@media screen and (max-width: 900px) {
+  .techTools ul li {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 700px) {
   .techTools {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+  .techTools ul li {
+    font-size: 1.5em;
   }
 }
 
@@ -68,9 +78,6 @@ ul {
 @media screen and (max-width: 540px) {
   .techTools ul {
     width: 95%;
-  }
-  .techTools ul li {
-    font-size: 1.5em;
   }
 }
 
