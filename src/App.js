@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import "./CSS/Global.css";
-
 import Navbar from "./Components/NavbarComp";
 import Header from "./Components/HeaderComp";
 import Portfolio from "./Components/PortfolioComp";
 import TechTools from "./Components/TechToolsComp";
 import About from "./Components/AboutComp";
 import Contact from "./Components/ContactComp";
+import "./CSS/Global.css";
 
 class App extends Component {
   render() {
