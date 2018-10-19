@@ -83,25 +83,12 @@ Responsive styles below
 @media screen and (max-width: 540px) {
   /* Navbar style below */
   .navBar {
-    background-color: rgb(146, 0, 0);
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    height: 8%;
-    z-index: 3;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  /* Navbar style below */
-  .navBar {
     background-color: rgba(0, 78, 146, 1);
     top: 0;
     left: 0;
     right: 0;
     width: 100%;
-    height: 20%;
+    height: 15%;
     z-index: 3;
   }
 }
