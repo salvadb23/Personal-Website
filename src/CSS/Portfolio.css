@@ -31,3 +31,52 @@
     width: 95%;
   }
 }
+#Portfolio .port-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1.8em;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+}
+
+.card img {
+  width: 20em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card > img + p {
+  width: 10em;
+  margin-left: 3em;
+  padding: 1px 0 2em 0;
+}
+
+.card p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+/* Responsive for Mobile phones */
+@media screen and (max-width: 481px) {
+  #Portfolio .port-section {
+    width: 95%;
+  }
+  .card {
+    margin-bottom: 2em;
+  }
+  .card img {
+    width: 15em;
+  }
+  .card > img + p {
+    margin-left: 2em;
+  }
+}
