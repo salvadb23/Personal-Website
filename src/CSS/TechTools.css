@@ -67,7 +67,7 @@ ul {
 
 /* Mobile Styles */
 @media screen and (max-width: 540px) {
-  .techTools {
+  .techTools ul {
     width: 95%;
   }
 }
