@@ -19,11 +19,16 @@
   border: 1px solid black;
 }
 
+#Contact .contact-form input[type="text"]:focus {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
 #Contact .contact-form textarea {
   width: 32em;
   height: 15em;
   border-radius: 1.2%;
   border: 1px solid black;
+  box-shadow: 0 8px 8px 5px rgba(0, 0, 0, 0.2);
 }
 
 #Contact .contact-form button {
@@ -33,15 +38,13 @@
   border-radius: 2spx;
   width: 10em;
   height: 2em;
+  border: none;
 }
 
 #Contact .contact-form button:hover {
   cursor: pointer;
   transform: scale(1.1);
-}
-
-#Contact .contact-form button:active {
-  border: none;
+  background-color: rgba(0, 218, 247, 0.3);
 }
 
 /* Tablet style */
