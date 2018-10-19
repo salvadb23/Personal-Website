@@ -3,7 +3,6 @@
   margin: 0;
   font-family: "Enriqueta", serif;
   overflow-x: hidden;
-  -webkit-appearance: none;
 }
 .container {
   display: grid;
