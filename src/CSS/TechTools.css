@@ -28,6 +28,16 @@ ul {
   height: 1.3em;
 }
 
+.techTools img[alt="Python logo"] {
+  animation: pythonTrail linear 3s infinite;
+}
+.techTools img[alt="Slack logo"] {
+  animation: slackRun linear 5s infinite;
+}
+.techTools img[alt="Django logo"] {
+  width: 2.3em;
+}
+
 .fab {
   font-size: 1.5em;
   margin-left: 2px;
@@ -35,10 +45,7 @@ ul {
 
 .fa-js-square {
   color: #f6e400;
-}
-
-.fa-python {
-  color: #276da3;
+  animation: shakeJS 2s ease infinite;
 }
 
 .fa-github-square {
@@ -46,16 +53,7 @@ ul {
 }
 .fa-react {
   color: #22dcff;
-  animation: rotate linear 4s infinite;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  animation: reactSpin linear 4s infinite;
 }
 
 /* Tablet style */
@@ -70,5 +68,53 @@ ul {
 @media screen and (max-width: 540px) {
   .techTools ul {
     width: 95%;
+  }
+  .techTools ul li {
+    font-size: 1.5em;
+  }
+}
+
+/* Animations below */
+@keyframes slackRun {
+  0% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(200px) rotateY(360deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+
+@keyframes shakeJS {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes reactSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

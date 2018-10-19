@@ -1,6 +1,11 @@
 import React, { Component } from "react";
-import git from "../media/git.png";
+import git from "../media/tech-tools-logos/git.png";
+import python from "../media/tech-tools-logos/python.png";
+import ruby from "../media/tech-tools-logos/ruby.png";
+import django from "../media/tech-tools-logos/django.jpg";
+import slack from "../media/tech-tools-logos/slack.png";
 import "../CSS/TechTools.css";
+import sketch from "../media/tech-tools-logos/sketch.png";
 
 export default class TechTools extends Component {
   render() {
@@ -14,10 +19,10 @@ export default class TechTools extends Component {
               Javascript <i className="fab fa-js-square " />
             </li>
             <li>
-              Python <i className="fab fa-python " />
+              Python <img src={python} alt="Python logo" srcset="" />
             </li>
             <li>
-              Ruby <i className="fab fa-python " />
+              Ruby <img src={ruby} alt="Ruby logo" srcset="" />
             </li>
           </ul>
           <ul>
@@ -25,16 +30,14 @@ export default class TechTools extends Component {
             <li>
               React <i className="fab fa-react" />
             </li>
-            <li>Django</li>
+            <li>
+              Django <img src={django} alt="Django logo" srcset="" />
+            </li>
           </ul>
           <ul>
             <h4>Tools</h4>
             <li>
               Git/Github
-              {/* <i
-                className="fab fa-git-square
-               "
-              />{" "} */}
               <img src={git} alt="git logo" srcSet="" />
               <i
                 className="fab fa-github-square
@@ -42,10 +45,10 @@ export default class TechTools extends Component {
               />
             </li>
             <li>
-              Slack <i className="fab fa-slack-hash" />
+              Slack <img src={slack} alt="Slack logo" srcset="" />
             </li>
             <li>
-              Sketch <i className="fas fa-gem" />
+              Sketch <img src={sketch} alt="Sketch logo" srcset="" />
             </li>
           </ul>
         </div>

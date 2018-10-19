@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../CSS/Header.css";
-import ms_logo from "../media/mslogo.png";
 export default class Header extends Component {
   render() {
     return (
@@ -10,9 +9,7 @@ export default class Header extends Component {
           <p>
             <span className="my-name">William Bogans</span> <br />
             Currently studying at{" "}
-            <a href="https://www.makeschool.com">
-              Make School <img src={ms_logo} alt={"Make School Logo"} />
-            </a>
+            <a href="https://www.makeschool.com">Make School</a>
             <br />
             San Francisco, CA
             <br />
