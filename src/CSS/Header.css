@@ -67,6 +67,9 @@
 @media screen and (max-width: 540px) {
   #Header {
   }
+  #Header a {
+    text-decoration: underline;
+  }
   #Header + #overlay {
     height: 80%;
   }
