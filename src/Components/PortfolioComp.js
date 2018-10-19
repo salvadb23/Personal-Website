@@ -12,9 +12,8 @@ export default class PortfolioSect extends Component {
           <div className="card">
             <img src={comingSoon} alt="One of my projects" />
             <p>
-              Client: Lorem, ipsum. <br />
-              Tech Used: Lorem ipsum dolor sit amet. <br />
-              Project Date:?
+              Client: Lucky's Cat Shop. <br />
+              Tech Used: React, Redux, MongoDB, Heroku
             </p>
           </div>
           <div className="card">

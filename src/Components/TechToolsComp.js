@@ -19,10 +19,10 @@ export default class TechTools extends Component {
               Javascript <i className="fab fa-js-square " />
             </li>
             <li>
-              Python <img src={python} alt="Python logo" srcset="" />
+              Python <img src={python} alt="Python logo" srcSet="" />
             </li>
             <li>
-              Ruby <img src={ruby} alt="Ruby logo" srcset="" />
+              Ruby <img src={ruby} alt="Ruby logo" srcSet="" />
             </li>
           </ul>
           <ul>
@@ -31,7 +31,7 @@ export default class TechTools extends Component {
               React <i className="fab fa-react" />
             </li>
             <li>
-              Django <img src={django} alt="Django logo" srcset="" />
+              Django <img src={django} alt="Django logo" srcSet="" />
             </li>
           </ul>
           <ul>
@@ -45,10 +45,10 @@ export default class TechTools extends Component {
               />
             </li>
             <li>
-              Slack <img src={slack} alt="Slack logo" srcset="" />
+              Slack <img src={slack} alt="Slack logo" srcSet="" />
             </li>
             <li>
-              Sketch <img src={sketch} alt="Sketch logo" srcset="" />
+              Sketch <img src={sketch} alt="Sketch logo" srcSet="" />
             </li>
           </ul>
         </div>
