@@ -51,7 +51,7 @@
 }
 
 /* Responsive for Mobile phones */
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 540px) {
   #Contact .contact-form {
     margin-right: -2em;
   }

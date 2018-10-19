@@ -63,6 +63,9 @@
 
 /* Responsive for Mobile phones */
 @media screen and (max-width: 540px) {
+  #Header {
+    height: 100vh;
+  }
   #Header .header-content {
     margin-left: -6em;
   }
