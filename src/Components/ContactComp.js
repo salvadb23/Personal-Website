@@ -13,17 +13,17 @@ export default class Contact extends Component {
         <div className="contact-form">
           <form action="">
             <label htmlFor="name" className="contactLabel">
-              Name
+              Name*
             </label>
             <br />
             <input type="text" placeholder="Jane Doe..." name="name" />
             <br />
             <label htmlFor="name" className="contactLabel">
-              Email
+              Email*
             </label>
             <br />
             <input type="text" placeholder="janedoe@gmail.com" name="name" />
-            <label htmlFor="subject">Subject</label>
+            <label htmlFor="subject">Subject*</label>
             <br />
             <input
               type="text"

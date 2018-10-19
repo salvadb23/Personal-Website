@@ -14,6 +14,7 @@
   color: black;
   border: 2px solid black;
   background: rgba(89, 143, 239, 0.2);
+  z-index: 2;
 }
 
 #Header #overlay {
@@ -27,18 +28,7 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-#Header .header-content {
-  z-index: 2;
-}
-
-#Header .header-content img {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-#Header .header-content a {
+#Header a {
   text-decoration: none;
   color: black;
 }
@@ -64,7 +54,9 @@
 /* Responsive for Mobile phones */
 @media screen and (max-width: 540px) {
   #Header {
-    height: 100vh;
+  }
+  #Header + #overlay {
+    height: 80%;
   }
   #Header .header-content {
     margin-left: -6em;

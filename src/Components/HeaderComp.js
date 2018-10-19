@@ -16,6 +16,8 @@ export default class Header extends Component {
               rel="noopener noreferrer"
             >
               Make School
+              <br />
+              San Francisco, CA
             </a>
             <br />
             Budding Full-Stack Developer
