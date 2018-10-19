@@ -34,11 +34,11 @@
 #Contact .contact-form button {
   margin-top: 5%;
   font-size: 1.4em;
-  border: none;
   border-radius: 2spx;
   width: 10em;
   height: 2em;
-  border: none;
+  border: 1px solid black;
+  box-shadow: 0 8px 4px 2px rgba(0, 0, 0, 0.12);
 }
 
 #Contact .contact-form button:hover {
