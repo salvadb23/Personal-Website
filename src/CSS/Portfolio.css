@@ -33,17 +33,24 @@
 }
 
 /* Responsive for Mobile phones */
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 640px) {
   #Portfolio .port-section {
     width: 92.1%;
   }
   .card {
     margin-bottom: 2em;
+    margin-left: 2em;
   }
   .card img {
     width: 23em;
   }
   .card > img + p {
     width: 15em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    margin-right: 2em;
   }
 }
