@@ -18,7 +18,7 @@
 .card img {
   width: 20em;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .card > img + p {
@@ -35,17 +35,16 @@
 /* Responsive for Mobile phones */
 @media screen and (max-width: 481px) {
   #Portfolio .port-section {
-    width: 95%;
+    width: 92.1%;
   }
   .card {
     margin-bottom: 2em;
+    margin-left: 2em;
   }
   .card img {
-    width: 22.9em;
-    margin-left: 1em;
+    width: 23em;
   }
   .card > img + p {
-    width: auto;
-    margin-left: 4em;
+    width: 15em;
   }
 }
