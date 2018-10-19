@@ -62,6 +62,9 @@
   #Contact .contact-form input[type="text"] {
     width: 15em;
   }
+  #Contact .contact-form input[type="text"]:focus {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  }
 
   #Contact .contact-form textarea {
     width: 13em;
