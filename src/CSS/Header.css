@@ -21,10 +21,6 @@
   z-index: 2;
 }
 
-#Header p img {
-  width: 1.4em;
-}
-
 #Header #overlay {
   position: absolute;
   display: block;
@@ -39,10 +35,6 @@
 #Header a {
   text-decoration: underline;
   color: black;
-}
-
-#Header a:hover {
-  text-decoration: underline;
 }
 
 .my-name {
@@ -69,12 +61,6 @@
     height: 80%;
   }
   #Header .header-content {
-    margin-left: -6em;
-  }
-}
-
-@media screen and (max-width: 540px) {
-  #Header .header-content {
-    margin-right: -5.9em;
+    width: 94%;
   }
 }
