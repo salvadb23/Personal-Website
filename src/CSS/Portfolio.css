@@ -44,3 +44,16 @@
     width: 15em;
   }
 }
+
+@media screen and (max-width: 500px) {
+  #Portfolio .port-section {
+    width: 70%;
+    margin-left: 3.2em;
+  }
+  .card img {
+    width: 23em;
+  }
+  .card > img + p {
+    width: 15em;
+  }
+}
