@@ -7,12 +7,20 @@ export default class SocialComps extends Component {
       <div>
         <ul className="social-links">
           <li>
-            <a href="https://github.com/will0101">
+            <a
+              href="https://github.com/will0101"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-github" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/william-bogans-b5758a16b/">
+            <a
+              href="https://www.linkedin.com/in/william-bogans-b5758a16b/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fab fa-linkedin" />
             </a>
           </li>

@@ -3,6 +3,7 @@
   margin: 0;
   font-family: "Enriqueta", serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .container {
   display: grid;
@@ -95,5 +96,8 @@ p a {
   #About .about-section {
     display: flex;
     flex-direction: column;
+  }
+  .container {
+    grid-template-rows: 600px auto auto repeat(2, minmax(800px, auto)) 920px;
   }
 }
