@@ -12,7 +12,7 @@
 }
 
 #About .about-section p {
-  width: 85%;
+  width: 50%;
   line-height: 1.5;
 }
 
@@ -29,6 +29,7 @@
     width: 95%;
   }
   .about-section p {
+    width: 90%;
     font-size: 1.2em;
   }
   #About img {
