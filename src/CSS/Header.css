@@ -35,14 +35,48 @@
 .my-name {
   font-size: 3em;
 }
+#Header div .social-links {
+  display: none;
+}
 
 /* Responsive Tablet Sizing */
 @media screen and (max-width: 1380px) {
   #Header #overlay {
     width: 100%;
   }
+
   #Header p {
     padding: 1.4em;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  #Header .header-content {
+    z-index: 2;
+    margin-top: -10em;
+  }
+  #Header div .social-links {
+    display: flex;
+    z-index: 99;
+    margin-top: 1em;
+  }
+  #Header div .social-links li a {
+    color: #eaf8f9;
+    font-size: 2em;
+  }
+  #Header div .social-links li .fa-envelope {
+    /* TODO: Make them sit there for a bit and then start swapping at the same time */
+    animation: mailSwap 20s infinite linear;
+  }
+  #Header div .social-links li .fa-linkedin {
+    animation: linkSwap linear 20s infinite;
+  }
+  #Header div .social-links li .fa-github {
+    animation: gitSwap linear 4s infinite;
+  }
+  #Header p {
+    font-size: 1.2em;
+    padding: 0.5em;
   }
 }
 
@@ -52,6 +86,42 @@
     height: 50%;
   }
   .my-name {
-    font-size: 2.8em;
+    font-size: 2.5em;
+  }
+}
+
+/*Animations below*/
+/* TODO: Make them sit there for a bit and then start swapping at the same time */
+@keyframes mailSwap {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-200px);
+    color: aquamarine;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes gitSwap {
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
+}
+
+@keyframes linkSwap {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(100px);
+  }
+  100% {
+    transform: translate(0px);
   }
 }

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "../CSS/Header.css";
+import "./SocialComps";
+import SocialComps from "./SocialComps";
 export default class Header extends Component {
   render() {
     return (
@@ -15,6 +17,7 @@ export default class Header extends Component {
             <br />
             Budding Full-Stack Developer
           </p>
+          <SocialComps />
         </div>
       </div>
     );
