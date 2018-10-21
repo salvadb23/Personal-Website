@@ -65,6 +65,10 @@ textarea {
 input:focus {
   outline: none;
 }
+p a {
+  color: black;
+  text-decoration: underline;
+}
 
 /* Responsive tablet style  */
 @media screen and (max-width: 870px) {

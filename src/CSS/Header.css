@@ -32,11 +32,6 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-#Header a {
-  text-decoration: underline;
-  color: black;
-}
-
 .my-name {
   font-size: 3em;
 }
