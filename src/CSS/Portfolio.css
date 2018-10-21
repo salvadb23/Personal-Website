@@ -45,15 +45,15 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 440px) {
   #Portfolio .port-section {
     width: 70%;
-    margin-left: 3.2em;
+    margin-left: 4em;
   }
   .card img {
-    width: 23em;
+    width: 20em;
   }
   .card > img + p {
-    width: 15em;
+    width: 12em;
   }
 }
