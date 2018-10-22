@@ -6,7 +6,7 @@ export default class Header extends Component {
   render() {
     return (
       <div className="b header" id="Header">
-        <div id="overlay"> </div>
+        <div id="overlay" />
         <div className="header-content">
           <p>
             <span className="my-name">William Bogans</span> <br />
@@ -18,7 +18,7 @@ export default class Header extends Component {
             Budding Full-Stack Developer
           </p>
           <SocialComps />
-          <i class="fa fa-arrow-down" aria-hidden="true" />
+          <i className="fa fa-arrow-down" aria-hidden="true" />
         </div>
       </div>
     );

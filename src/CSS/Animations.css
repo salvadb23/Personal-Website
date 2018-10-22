@@ -1,0 +1,97 @@
+/* Header Animations */
+@keyframes mailSwap {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-200px);
+    color: #86fde8;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes gitSwap {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(110px);
+    color: #86fde8;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes linkSwap {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(100px);
+    color: #86fde8;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@keyframes arrowMover {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* TechTools Animations */
+
+@keyframes slackRun {
+  0% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+  50% {
+    transform: translateX(200px) rotateY(360deg);
+  }
+  100% {
+    transform: translateX(0px) rotateY(0deg);
+  }
+}
+
+@keyframes shakeJS {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes reactSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
