@@ -65,10 +65,13 @@ Responsive styles below
 /* Responsive Tablet Sizing */
 @media screen and (max-width: 870px) {
   .navBar {
-    background-color: rgba(0, 78, 146, 1);
+    background-color: rgba(0, 78, 146, 1.2);
     width: 100%;
     z-index: 5;
     position: fixed;
+  }
+  .navBar ul div a {
+    font-size: 2em;
   }
 
   .navBar .ham-sym {
@@ -81,8 +84,8 @@ Responsive styles below
   }
 }
 /* Responsive for smaller phones */
-@media screen and (max-width: 540px) {
-  /* Navbar style below */
-  .navBar {
+@media screen and (max-width: 562px) {
+  .navBar ul div a {
+    font-size: 1.5em;
   }
 }
