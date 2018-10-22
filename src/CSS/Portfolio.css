@@ -1,3 +1,4 @@
+/* TODO:Come back and refactor this  */
 #Portfolio .port-section {
   display: flex;
   flex-wrap: wrap;
@@ -12,7 +13,7 @@
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.4s;
+  /* TODO: Do something fancy with animations here here */
 }
 
 .card img {
@@ -23,13 +24,13 @@
 
 .card > img + p {
   width: 10em;
-  margin-left: 3em;
-  padding: 1px 0 2em 0;
 }
 
 .card p {
   line-height: 1.5;
   font-size: 20px;
+  margin-left: 3em;
+  padding: 1px 0 2em 0;
 }
 
 /* Responsive for Mobile phones */

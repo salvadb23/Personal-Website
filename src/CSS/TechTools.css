@@ -4,16 +4,13 @@
   grid-template-rows: minmax(100px, auto);
 }
 
-.techTools h4 {
-  margin-top: 0.5em;
-}
-
 .techTools h4,
 ul {
   font-size: 1.9em;
   color: black;
   padding: 0.5em;
   text-align: center;
+  margin-top: 0.5em;
 }
 
 .techTools li {
@@ -27,7 +24,10 @@ ul {
   width: 1.3em;
   height: 1.3em;
 }
-
+.fab {
+  font-size: 1.5em;
+  margin-left: 2px;
+}
 .techTools img[alt="Python logo"] {
   animation: pythonTrail linear 3s infinite;
 }
@@ -37,17 +37,10 @@ ul {
 .techTools img[alt="Django logo"] {
   width: 2.3em;
 }
-
-.fab {
-  font-size: 1.5em;
-  margin-left: 2px;
-}
-
 .fa-js-square {
   color: #f6e400;
   animation: shakeJS 2s ease infinite;
 }
-
 .fa-github-square {
   color: black;
 }
@@ -55,9 +48,7 @@ ul {
   color: #22dcff;
   animation: reactSpin linear 4s infinite;
 }
-
 /* Tablet styles*/
-
 @media screen and (max-width: 900px) {
   .techTools ul li {
     font-size: 1.5em;
@@ -69,11 +60,7 @@ ul {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
-  .techTools ul li {
-    font-size: 1.5em;
-  }
 }
-
 /* Mobile Styles */
 @media screen and (max-width: 540px) {
   .techTools ul {
