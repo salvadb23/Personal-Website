@@ -10,7 +10,7 @@ export default class Navbar extends Component {
           &#9776;
         </label>
         <input type="checkbox" id="hamburger-menu" />
-        <ul className="side-links">
+        <ul className="side-links nav-toggle">
           <div className="Navbar-items">
             <li>
               <a href="#Header">Main</a>
