@@ -13,24 +13,24 @@
   z-index: 200;
 }
 
-/* Styling the li's on the side */
-.navBar ul li {
+/* Styling the div's on the side */
+.navBar ul div {
   padding: 1em;
   font-size: 2em;
 }
 
-.navBar ul li a {
+.navBar ul div a {
   text-decoration: none;
   color: white;
   font-family: "Noto Serif", serif;
 }
 
-.navBar ul li a:hover {
+.navBar ul div a:hover {
   text-decoration: underline;
   transform: scale(2);
 }
 
-.navBar ul li:hover {
+.navBar ul div:hover {
   transform: scale(1.2);
 }
 
@@ -50,13 +50,13 @@
 Responsive styles below 
 **********************/
 @media screen and (max-width: 1380px) {
-  .navBar .side-links li {
+  .navBar .side-links div {
     padding-top: 0.5em;
   }
 }
 
 @media screen and (max-width: 1100px) {
-  .navBar .side-links li {
+  .navBar .side-links div {
     padding-top: 1em;
     font-size: 1.6em;
   }

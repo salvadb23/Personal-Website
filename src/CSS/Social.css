@@ -5,8 +5,11 @@
   align-items: center;
   font-size: 1em;
 }
+.social-links li {
+  padding: 0.5em;
+  padding-top: 0;
+}
 
 .fa-envelope {
   font-size: 1.4em;
-  margin-left: -12px;
 }
