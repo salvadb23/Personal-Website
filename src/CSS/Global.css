@@ -2,7 +2,6 @@
 .App {
   margin: 0;
   font-family: "Enriqueta", serif;
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 .container {
@@ -73,12 +72,9 @@ p a {
 
 /* Responsive tablet style  */
 @media screen and (max-width: 870px) {
-  body {
-    overflow-x: hidden;
-  }
   .container {
     grid-template-columns: 1fr;
-    grid-template-rows: 800px auto;
+    grid-template-rows: 800px auto auto repeat(2, 800px) 915px;
   }
 }
 
@@ -86,6 +82,9 @@ p a {
 @media screen and (max-width: 540px) {
   body {
     overflow-x: hidden;
+  }
+  .container {
+    grid-template-rows: 600px auto auto repeat(2, 800px) 915px;
   }
 
   h3 {
@@ -96,8 +95,5 @@ p a {
   #About .about-section {
     display: flex;
     flex-direction: column;
-  }
-  .container {
-    grid-template-rows: 600px auto auto repeat(2, minmax(800px, auto)) 920px;
   }
 }

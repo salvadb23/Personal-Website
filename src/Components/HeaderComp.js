@@ -18,6 +18,7 @@ export default class Header extends Component {
             Budding Full-Stack Developer
           </p>
           <SocialComps />
+          <i class="fa fa-arrow-down" aria-hidden="true" />
         </div>
       </div>
     );
