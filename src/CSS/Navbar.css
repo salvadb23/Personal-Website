@@ -49,6 +49,7 @@ Responsive styles below
     font-size: 1em;
   }
   .navBar {
+    overflow: hidden;
   }
 }
 /* Responsive Tablet Sizing */

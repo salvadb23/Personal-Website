@@ -19,7 +19,10 @@
 @media screen and (max-width: 625px) {
   .techTools {
     flex-direction: column;
-    align-items: baseline;
+    font-size: 1em;
+  }
+  .techTools p {
+    font-size: 1.2em;
   }
 }
 

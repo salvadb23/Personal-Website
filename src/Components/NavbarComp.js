@@ -30,10 +30,7 @@ export default class Navbar extends Component {
           <div>
             <a href="#Contact">Contact</a>
           </div>
-          <div>
-            {/* #TODO:send this to the blog sub domain
-              <a href="#">Blog</a> */}
-          </div>
+          <div />
           <SocialLinks />
         </ul>
       </div>
