@@ -24,11 +24,10 @@
 #Header #overlay {
   position: absolute;
   display: block;
-  width: 77.28%;
+  width: 100%;
   height: 50em;
   top: 0;
   right: 0;
-  z-index: 1;
   background-color: rgba(0, 0, 0, 0.2);
 }
 
@@ -41,11 +40,12 @@
 
 .fa-arrow-down {
   position: absolute;
-  margin-top: 15%;
-  font-size: 2em;
+  margin-top: 10%;
+  font-size: 2.5em;
   color: white;
   z-index: 9999;
   opacity: 0.85;
+  animation: arrowMover 10s 2s infinite linear;
 }
 
 /* Responsive Tablet Sizing */
@@ -64,11 +64,6 @@
 }
 
 @media screen and (max-width: 870px) {
-  #Header .header-content {
-    z-index: 2;
-    margin-top: -10em;
-  }
-
   #Header div .social-links {
     display: flex;
     z-index: 99;
@@ -115,13 +110,9 @@
   #Header p {
     padding: 0.5em;
   }
-  #Header .header-content {
-    margin-top: 2em;
-  }
 }
 
 /*Animations below*/
-/* TODO: Make them sit there for a bit and then start swapping at the same time */
 @keyframes mailSwap {
   0% {
     transform: translateX(0px);
@@ -158,5 +149,17 @@
   }
   100% {
     transform: translateX(0px);
+  }
+}
+
+@keyframes arrowMover {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }

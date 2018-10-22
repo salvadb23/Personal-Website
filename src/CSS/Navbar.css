@@ -1,11 +1,9 @@
 .navBar {
   height: 100%;
-  top: 0;
-  left: 0;
   overflow-x: hidden;
   position: fixed;
   width: 22.7%;
-  z-index: 200;
+  z-index: 999;
 }
 .navBar .side-links {
   margin-top: 3em;
@@ -34,7 +32,8 @@
   transform: scale(1.2);
 }
 
-.navBar .ham-sym {
+.navBar .ham-sym,
+#hamburger-menu {
   position: relative;
   top: 0.5em;
   left: 0.5em;
@@ -42,29 +41,16 @@
   display: none;
 }
 
-.navBar #hamburger-menu {
-  display: none;
-}
-
 /*********************
 Responsive styles below 
 **********************/
 @media screen and (max-width: 1380px) {
-  .navBar .side-links div {
-    padding-top: 0.5em;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .navBar .side-links div {
-    padding-top: 1em;
-    font-size: 1.6em;
-  }
   .navBar .side-links {
-    margin-top: 1em;
+    font-size: 1em;
+  }
+  .navBar {
   }
 }
-
 /* Responsive Tablet Sizing */
 @media screen and (max-width: 870px) {
   .navBar {
@@ -78,14 +64,10 @@ Responsive styles below
     display: block;
     cursor: pointer;
   }
-
-  .navBar .side-links .social-links {
-    display: none;
+  .navBar .side-links {
+    margin-top: 1%;
   }
-}
-/* Responsive for smaller phones */
-@media screen and (max-width: 562px) {
-  .navBar ul div a {
-    font-size: 1.5em;
+  .navBar .social-links {
+    display: none;
   }
 }
