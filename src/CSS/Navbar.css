@@ -48,13 +48,6 @@ Responsive styles below
     font-size: 1em;
     -webkit-overflow-scrolling: touch;
   }
-  .navBar {
-<<<<<<< HEAD
-    overflow: hidden;
-=======
-    transition: top 0.3s;
->>>>>>> refactheader
-  }
 }
 /* Responsive Tablet Sizing */
 @media screen and (max-width: 870px) {
