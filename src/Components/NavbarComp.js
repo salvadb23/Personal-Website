@@ -44,5 +44,6 @@ export default class Navbar extends Component {
     nav.style.height === "10%"
       ? (nav.style.height = "100%")
       : (nav.style.height = "10%");
+    // TODO: Put a style in here for animation purposes
   }
 }
