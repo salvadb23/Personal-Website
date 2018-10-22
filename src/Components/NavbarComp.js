@@ -39,8 +39,7 @@ export default class Navbar extends Component {
   burgerToggle() {
     let nav = document.querySelector(".navBar");
     nav.style.height === "10%"
-      ? (nav.style.height = "100%")
+      ? (nav.style.height = "100vh")
       : (nav.style.height = "10%");
-    // TODO: Put a style in here for animation purposes
   }
 }

@@ -18,7 +18,15 @@ export default class Header extends Component {
             Budding Full-Stack Developer
           </p>
           <SocialComps />
-          <i className="fa fa-arrow-down" aria-hidden="true" />
+          <a href="#Portfolio">
+            {" "}
+            <i
+              className="fa fa-arrow-down"
+              onClick={this.scrollDown}
+              aria-hidden="true"
+              id="goDown"
+            />
+          </a>
         </div>
       </div>
     );

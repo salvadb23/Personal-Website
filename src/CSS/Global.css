@@ -3,7 +3,6 @@
 .App {
   margin: 0;
   font-family: "Enriqueta", serif;
-  scroll-behavior: smooth;
 }
 .container {
   display: grid;
