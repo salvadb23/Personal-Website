@@ -11,7 +11,6 @@
   z-index: 200;
 }
 
-/* Styling the div's on the side */
 .navBar ul div {
   padding: 1em;
   font-size: 2em;
@@ -47,9 +46,14 @@ Responsive styles below
 @media screen and (max-width: 1380px) {
   .navBar .side-links {
     font-size: 1em;
+    -webkit-overflow-scrolling: touch;
   }
   .navBar {
+<<<<<<< HEAD
     overflow: hidden;
+=======
+    transition: top 0.3s;
+>>>>>>> refactheader
   }
 }
 /* Responsive Tablet Sizing */
@@ -64,6 +68,9 @@ Responsive styles below
   .navBar .ham-sym {
     display: block;
     cursor: pointer;
+  }
+  .navBar .close-ham {
+    display: none;
   }
   .navBar .side-links {
     margin-top: 1%;
